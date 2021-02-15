@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.power-of-number {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.power-of-number h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.power-of-number input,
+.power-of-number button{
+    height: 40px;
+    width: 150px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.power-of-number p {
+    font-size: 1.3rem;
+    height: 40px;
+    border: 1px solid #000;
+    min-width: 100px;
+    text-align: center;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
